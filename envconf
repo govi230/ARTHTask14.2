@@ -1,0 +1,7 @@
+export DOCKER_HOST=ssh://root@192.168.43.10
+pip3 install docker
+pip3 install --upgrade setuptools
+pip3 install setuptools-rust
+pip3 install -U pip setuptools
+export CRYPTOGRAPHY_DONT_BUILD_RUST=1
+pip3 install paramiko
